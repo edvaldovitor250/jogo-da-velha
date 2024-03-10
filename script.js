@@ -10,27 +10,23 @@ let warning = '';
 let playing = false;
 
 // Events
-
 document.querySelector('.reset').addEventListener('click', reset);
 document.querySelectorAll('.item').forEach(item => {
     item.addEventListener('click', itemClick);
 })
 
-// Funcitons
-
+// Functions
 function itemClick(event) {
     let item = event.target.getAttribute('data-item');
-    if(playing && square[item] ===  ''){
+    if (playing && square[item] ===  '') {
         square[item] = player;
         renderSquare();
         togglePlayer();
     }
 }
 
-
 function reset() {
     warning = '';
-
     let random = Math.floor(Math.random() * 2);
     player = (random === 0) ? 'x' : 'o';
 
@@ -38,8 +34,7 @@ function reset() {
         square[i] = '';
     }
 
-    plating = true;
-
+    playing = true; 
 
     renderSquare();
     renderInfo();
@@ -54,9 +49,15 @@ function renderSquare() {
     checkGame();
 }
 function renderInfo() {
-    document.querySelector(`.vez`).innerHTML = player
-    document.querySelector(`.warning`).innerHTML = warning
+    document.querySelector(`.vez`).innerHTML = player;
+    if (!playing) {
+        document.querySelector(`.resultado`).innerHTML = warning;
+    } else {
+        document.querySelector(`.resultado`).innerHTML = '';
+    }
+    document.querySelector(`.warning`).innerHTML = warning;
 }
+
 
 function togglePlayer() {
     player = (player === 'x')? 'o' : 'x';
@@ -64,12 +65,8 @@ function togglePlayer() {
 }
 
 function checkGame() {
-    if (checkWinnerFor('x')) {
-        warning = 'O "x" venceu'
-        playing = false;
-        
-    } else if (checkWinnerFor('o')) {
-        warning = 'O "o" venceu';
+    if (checkWinnerFor(player)) { 
+        warning = `O "${player}" venceu`;
         playing = false;
     } else if (isFull()){
         warning = 'Empate';
@@ -77,31 +74,27 @@ function checkGame() {
     }
 }
 
-function checkGame(player) {
+function checkWinnerFor(player) {
     let pos = [
         'a1,a2,a3',
         'b1,b2,b3',
         'c1,c2,c3',
-
         'a1,b1,c1',
         'a2,b2,c2',
         'a3,b3,c3',
-
         'a1,b2,c3',
         'a3,b2,c1',
-
     ];
 
     for (let w in pos){
         let pArray = pos[w].split(',');
-      let hasWon =  pArray.every(option => square[option] === player)
-      if (hasWon) {
-        return true;
-      } 
+        let hasWon = pArray.every(option => square[option] === player);
+        if (hasWon) {
+            return true;
+        } 
     }
 
     return false;
-
 }
 
 function isFull() {
