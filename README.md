@@ -54,22 +54,22 @@
           Sinta-se à vontade para contribuir com este projeto! Você pode propor melhorias no código, corrigir bugs ou adicionar novos recursos. Basta seguir estas etapas. ✍️</p>
         </section>
         <section id="tela---cliente">
-          <h2>Instruções de Inicialização do Projeto</h2>
-<ol>
-    <li>
-        <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/8b9fb383-d9e5-44b8-9e54-dff95d16fb44" alt="Visual Studio Code - index.html">
-        Para iniciar o projeto, basta abrir o arquivo <code>index.html</code> no seu navegador web preferido. 🌐
-    </li>
-    <li>
-        <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/88c85725-2358-4f13-b6ed-1e9270f87beb" alt="Extensão Live Server">
-        Em seguida, é recomendado ter a extensão do Live Server instalada no Visual Studio Code. 🚀
-    </li>
-    <li>
-        <img src="https://github.com/edvaldovitor250/jogo-da-velha/assets/116117189/abf9458d-1816-43d1-abe0-8693d8d0a462" alt="parte3">
-        Após isso, basta clicar no botão "Go Live" para iniciar o servidor local e visualizar o projeto. 🚀
-    </li>
-</ol>
-        </section>
+    <h2>Instruções de Inicialização do Projeto</h2>
+    <ol>
+        <li>
+            Para iniciar o projeto, basta abrir o arquivo <code>index.html</code> no seu navegador web preferido. 🌐
+            <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/8b9fb383-d9e5-44b8-9e54-dff95d16fb44" alt="Visual Studio Code - index.html">
+        </li>
+        <li>
+            Em seguida, é recomendado ter a extensão do Live Server instalada no Visual Studio Code. 🚀
+            <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/88c85725-2358-4f13-b6ed-1e9270f87beb" alt="Extensão Live Server">
+        </li>
+        <li>
+            Após isso, basta clicar no botão "Go Live" para iniciar o servidor local e visualizar o projeto. 🚀
+            <img src="https://github.com/edvaldovitor250/jogo-da-velha/assets/116117189/abf9458d-1816-43d1-abe0-8693d8d0a462" alt="parte3">
+        </li>
+    </ol>
+</section>
         <section id="tecnologias-utilizadas">
           <h2>Tecnologias Utilizadas</h2>
           <table>
