@@ -56,13 +56,16 @@
         <section id="tela---cliente">
           <h2>Instruções de Inicialização do Projeto</h2>
           <ol>
-            <li>Para iniciar o projeto, basta abrir o arquivo <code>index.html</code> no seu navegador web preferido. 🌐</li>
-            <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/8b9fb383-d9e5-44b8-9e54-dff95d16fb44" alt="Visual Studio Code - index.html">
-            <li>Em seguida, é recomendado ter a extensão do Live Server instalada no Visual Studio Code. 🚀</li>
-            <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/88c85725-2358-4f13-b6ed-1e9270f87beb" alt="Extensão Live Server">
-            <li>Após isso, basta clicar no botão "Go Live" para iniciar o servidor local e visualizar o projeto. 🚀</li>
-            <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/2635408a-c84c-471a-ae64-23182c556615" alt="parte3">
-          </ol>
+    <li>Para iniciar o projeto, basta abrir o arquivo <code>index.html</code> no seu navegador web preferido. 🌐
+        <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/8b9fb383-d9e5-44b8-9e54-dff95d16fb44" alt="Visual Studio Code - index.html">
+    </li>
+    <li>Em seguida, é recomendado ter a extensão do Live Server instalada no Visual Studio Code. 🚀
+        <img src="https://github.com/edvaldovitor250/dashbord/assets/116117189/88c85725-2358-4f13-b6ed-1e9270f87beb" alt="Extensão Live Server">
+    </li>
+    <li>Após isso, basta clicar no botão "Go Live" para iniciar o servidor local e visualizar o projeto. 🚀
+        <img src="https://github.com/edvaldovitor250/jogo-da-velha/assets/116117189/abf9458d-1816-43d1-abe0-8693d8d0a462" alt="parte3">
+    </li>
+</ol>
         </section>
         <section id="tecnologias-utilizadas">
           <h2>Tecnologias Utilizadas</h2>
